@@ -6,7 +6,7 @@
 #     include onepassword
 class onepassword {
   $host = 'app-updates.agilebits.com'
-  $path = 'download/OPM4'
+  $path = 'download/1Password-6.3.1.zip'
 
   package { '1Password':
     source   => "https://${host}/${path}",
