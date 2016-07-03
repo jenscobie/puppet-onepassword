@@ -10,6 +10,7 @@ class onepassword {
 
   package { '1Password':
     source   => "https://${host}/${path}",
-    provider => 'compressed_app'
+    provider => 'compressed_app',
+    flavor => 'zip'
   }
 }
